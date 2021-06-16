@@ -2,6 +2,9 @@ body {
   text-align: center;
   background-color: #011F3F;
 }
+footer{
+  margin: 20px 0;
+}
 
 #level-title {
   font-family: 'Press Start 2P', cursive;
@@ -50,4 +53,16 @@ body {
 .pressed {
   box-shadow: 0 0 20px white;
   background-color: grey;
+}
+.instructions{
+  text-align: left;
+  color: grey;
+  font-size: 20px;
+}
+.tag{
+  font-size: 25px;
+  color: grey;
+}
+.tag:hover{
+  color: white;
 }
